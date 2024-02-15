@@ -1,3 +1,5 @@
+package org.activitat17.demo;
+
 public class Booking {
     private String locationNumber;
     private String clientId;
@@ -10,7 +12,8 @@ public class Booking {
     private String hotelName;
     private String checkInDate;
     private int roomNights;
-
+    public Booking() {
+    }
     public Booking(String locationNumber, String clientId, String clientName, String agencyId, String agencyName, double price, String roomType, String hotelId, String hotelName, String checkInDate, int roomNights) {
         this.locationNumber = locationNumber;
         this.clientId = clientId;

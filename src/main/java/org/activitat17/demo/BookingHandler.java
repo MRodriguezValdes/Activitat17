@@ -1,8 +1,10 @@
+package org.activitat17.demo;
+
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
 import java.util.Vector;
+
 
 public class BookingHandler extends DefaultHandler {
     private Vector<Booking> bookings = new Vector<>();
